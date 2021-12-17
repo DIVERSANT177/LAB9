@@ -9,7 +9,7 @@ trigger:
 - releases/*
 
 pool:
-  vmImage: ubuntu-latest
+  default
 
 strategy:
   matrix:
